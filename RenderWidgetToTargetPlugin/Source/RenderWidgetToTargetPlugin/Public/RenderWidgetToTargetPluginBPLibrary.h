@@ -1,14 +1,15 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
-
 #pragma once
 
-#include "Engine.h"
+#include "CoreMinimal.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 
-#include "UMG.h"
-#include "SlateBasics.h"
-#include "SlateCore.h"
-#include "Widgets/SWidget.h"
-#include "Slate/WidgetRenderer.h"
+#include "Engine/TextureDefines.h"
+#include "Engine/TextureRenderTarget2D.h"    
+#include "Blueprint/UserWidget.h"           
+#include "Widgets/SWidget.h"               
+#include "Slate/WidgetRenderer.h"            
+
+#include "RenderingThread.h"
 
 #include "RenderWidgetToTargetPluginBPLibrary.generated.h"
 
